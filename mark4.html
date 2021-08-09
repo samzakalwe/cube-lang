@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <style>
+      #text-box {
+        width: 300px;
+      } 
+    </style>
+    <script>
+    	function renderMarain() {
+     		document.getElementById("marain").innerHTML = "Hola!";
+			}
+    </script>
+  </head>
+  <body>
+    <p>
+      Marain Transliteration:
+    </p>
+    <input type="text" id="text-box" oninput="renderMarain()"/> 
+    <p>
+      Result:
+    </p>
+    <div id="marain">
+    </div>
+  </body>
+</html>
