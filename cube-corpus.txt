@@ -2,14 +2,14 @@
 
 (statement:
     name: magician +plural
-    relation: has property
+    relation: property
     target: magic)
     
 // Abracadabra is a magic word.
 
 (statement:
     name: abracadabra
-    relation: is a
+    relation: be
     target: (name: word
              descriptor: magic))
              
@@ -17,5 +17,39 @@
  
 (statement:
     name: labrador +indefinite
-    relation: is a type of
+    relation: type
     target: dog)
+
+// Ants have tiny bodies
+
+(statement:
+    name: ant +plural
+    relation: property
+    target: (name: body +plural
+             descriptor: tiny))
+
+// Antibodies make you well
+
+(event:
+    action: make
+    actor: antibody +plural
+    target: [
+        listener,
+        Well
+    ])
+    
+ // A javelin is a type of spear used for throwing
+ 
+(statement:
+    name: javelin +indefinite
+    relation: type
+    target: spear)
+    
+merge
+
+(statement:
+    name: javelin +indefinite
+    relation: use
+    target: (event:
+                action: throw))
+S
