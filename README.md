@@ -1,3 +1,0 @@
-# cube-lang
-
-Coming soon!
