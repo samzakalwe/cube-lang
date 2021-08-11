@@ -1,0 +1,21 @@
+// Magicians have magic.
+
+(statement:
+    name: magician +plural
+    relation: has property
+    target: magic)
+    
+// Abracadabra is a magic word.
+
+(statement:
+    name: abracadabra
+    relation: is a
+    target: (name: word
+             descriptor: magic))
+             
+// A Labrador is a type of dog.
+ 
+(statement:
+    name: labrador +indefinite
+    relation: is a type of
+    target: dog)
