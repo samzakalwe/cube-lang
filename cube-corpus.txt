@@ -38,7 +38,7 @@
         Well
     ])
     
- // A javelin is a type of spear used for throwing
+// A javelin is a type of spear used for throwing
  
 (statement:
     name: javelin +indefinite
@@ -52,4 +52,3 @@ merge
     relation: use
     target: (event:
                 action: throw))
-S
