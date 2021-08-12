@@ -52,3 +52,14 @@ merge
     relation: use
     target: (event:
                 action: throw))
+                
+// A pound is a unit of monetary currency
+
+(statement:
+    name: pound +indefinite
+    relation: be
+    target: (name: unit +indefinite
+             relation: type
+             target: (name: currency
+                      descriptor: monetary)))
+                      
