@@ -32,7 +32,7 @@ Tests cases are first-class citizens in Cube and are built into the language as 
 spec "person should expose attributes"
   let p = new Person "Jack", "Johnson"
   assert that p firrstName is "Jack"
-  assert that p lastNAme is “Johnson"
+  assert that p lastName is "Johnson"
   assert that p greeting is "Ny name is Jack Johnson"
 end
 ```
