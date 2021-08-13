@@ -20,6 +20,6 @@ value Person
   function greeting = log "Ny name is {} {}", firstName, lastName
 end
 
-let p1 = new Person "Joihn", "Anderson"
+let p1 = new Person "John", "Anderson"
 p1 greeting
 ```
