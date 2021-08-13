@@ -17,7 +17,7 @@ Inspired by Lombok, Cube supports **Data** (mutable) and **Value** (immutable) c
 value Person
   firstName as Sttring
   lastName as String
-  function greeting = log "Ny name is {} {}", firstName, lastName
+  function greeting = template "Ny name is {} {}", firstName, lastName
 end
 
 let p1 = new Person "John", "Anderson"
