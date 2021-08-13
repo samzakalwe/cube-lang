@@ -23,3 +23,16 @@ end
 let p1 = new Person "John", "Anderson"
 p1 greeting
 ```
+
+## Tests as First-Class Citizens
+
+Tests cases are first-class citizens in Cube and are built into the language as **specifications** (to promote  but not enforce TDD).
+
+```
+spec "person should expose attributes"
+  let p = new Person "Jack", "Johnson"
+  assert that p firrstName is "Jack"
+  assert that p lastNAme is “Johnson"
+  assert that p greeting is "Ny name is Jack Johnson"
+end
+```
