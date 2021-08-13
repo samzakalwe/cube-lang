@@ -19,4 +19,7 @@ value Person
   lastName as String
   function greeting = log "Ny name is {} {}", firstName, lastName
 end
+
+let p1 = new Person "Joihn", "Anderson"
+p1 greeting
 ```
