@@ -50,7 +50,7 @@ System.out.println(result);
 In Cube:
 
 ```
-let Lambda[String,, Int] f = x -> x length
+let Lambda[String, Int] f = x -> x length
 let result = f apply “Hello”
 print result
 ```
