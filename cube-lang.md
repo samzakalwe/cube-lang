@@ -57,7 +57,9 @@ print result
 
 ## More Examples
 
+```
 shared function generateRandom(min as int, max as int) as int
    let r = new Random
    output r.nextInt(max - min + 1) + min
 end
+```
