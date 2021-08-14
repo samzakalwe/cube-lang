@@ -36,3 +36,21 @@ spec "person should expose attributes"
   assert that p greeting is "Ny name is Jack Johnson"
 end
 ```
+
+## Functional Programming (Compared to Java)
+
+In Java:
+
+```
+Function<String, Integer> f = x -> x.length();
+Integer result = f.apply("Hello!"); 
+System.out.println(result);
+```
+
+In Cube:
+
+```
+let Lambda[String,, Int] f = x -> x length
+let result = f apply “Hello”
+print result
+```
