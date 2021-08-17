@@ -1,4 +1,13 @@
-# Reference (ERG HSPG) - http://moin.delph-in.net/wiki/ErgTop
+# Reference for parsing subcomponent pipeline: (ERG HSPG) - http://moin.delph-in.net/wiki/ErgTop
+
+A the top level, Cube RCL (Robot Control Language), consists of statements, events and queries. Statements link entity names with entity targets via relations. 
+
+The main relations in statements are:
+
+be - indicates a copula that defines an entity, e.g. Abracadabra is a magic word.
+type - used to indicate an "is a" relation, e.g. A Labrador is a type of dog.
+property - indicates that an entity is a property of another entity, e.g. Magicians have magic.
+use - indicates the usage of an entity, e.g. Chopsticks are used for eating
 
 // Magicians have magic.
 
@@ -65,7 +74,6 @@ merge
              target: (name: currency
                       descriptor: monetary)))
                       
-
 // Rome is the capital of Italy
 
 (statement:
