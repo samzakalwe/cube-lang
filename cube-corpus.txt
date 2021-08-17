@@ -77,7 +77,7 @@ merge
 
 // What's the capital of Portugal?
 
-(question:
+(query:
     name: identify
     relation: be
     target: (name: capital
