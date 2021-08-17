@@ -1,3 +1,5 @@
+# Reference (ERG HSPG) - http://moin.delph-in.net/wiki/ErgTop
+
 // Magicians have magic.
 
 (statement:
