@@ -72,7 +72,7 @@ merge
     name: rome
     relation: be
     target: (name: capital
-             relation: part
+             relation: property
              target: italy))
 
 // What's the capital of Portugal?
