@@ -65,3 +65,25 @@ merge
              target: (name: currency
                       descriptor: monetary)))
                       
+
+// Rome is the capital of Italy
+
+(statement:
+    name: rome
+    relation: be
+    target: (name: capital
+             relation: part
+             target: italy))
+
+// What's the capital of Portugal?
+
+(question:
+    name: identify
+    relation: be
+    target: (name: capital
+             relation: part
+             target: portugual))
+
+
+
+
