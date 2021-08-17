@@ -81,7 +81,7 @@ merge
     name: identify
     relation: be
     target: (name: capital
-             relation: part
+             relation: property
              target: portugual))
 
 
